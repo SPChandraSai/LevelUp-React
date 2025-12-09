@@ -20,11 +20,15 @@ import UseEffectComponent from './React_1/UseEffectComponent'
 
 // Lecture-2
 import UseStateCounter from './React_2/UseStateCounter'
+import UseReducerCounter from './React_2/UseReducerCounter'
+import FormManagement from './React_2/FormManagement'
 
 function App() {
   return (
     <div>
-      <UseStateCounter />
+      {/* <UseStateCounter /> */}
+      {/* <UseReducerCounter/> */}
+      <FormManagement/>
     </div>
   )
 }

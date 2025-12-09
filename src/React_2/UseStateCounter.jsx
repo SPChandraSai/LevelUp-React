@@ -26,14 +26,14 @@ function UseStateCounter() {
 
     return (
         <div>
-            <h2>Use State Counter</h2>
+            <h2>Use State Counter:{count}</h2>
 
             <button onClick={increment}>Increment</button>
             <button onClick={decrement}>Decrement</button>
             <button onClick={incrementBy5}>Increment by 5</button>
             <button onClick={decrementBy5}>Decrement by 5</button>
             
-            <h3>Count Value: {count} </h3>
+            <h2>``````````````````````````````````````````</h2>
         </div>
     )
 }
