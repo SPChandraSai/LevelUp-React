@@ -22,13 +22,15 @@ import UseEffectComponent from './React_1/UseEffectComponent'
 import UseStateCounter from './React_2/UseStateCounter'
 import UseReducerCounter from './React_2/UseReducerCounter'
 import FormManagement from './React_2/FormManagement'
+import UseRefInput from './React_2/UseRefInput'
 
 function App() {
   return (
     <div>
       {/* <UseStateCounter /> */}
       {/* <UseReducerCounter/> */}
-      <FormManagement/>
+      {/* <FormManagement/> */}
+      <UseRefInput/>
     </div>
   )
 }
