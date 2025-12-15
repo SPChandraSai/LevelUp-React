@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react'
 import { useState } from 'react';
 
-function ReactCallback() {
+function UseCallback() {
     const [value, setValue] = useState("");
     const [count, setCount] = useState(0);
     
@@ -37,4 +37,4 @@ function ChildComponent({ parentClick, count }) {
     </>
 }
 
-export default ReactCallback
+export default UseCallback

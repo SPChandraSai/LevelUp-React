@@ -24,7 +24,8 @@ import UseReducerCounter from './React_2/UseReducerCounter'
 import FormManagement from './React_2/FormManagement'
 import UseRefInput from './React_2/UseRefInput'
 import ReactMemo from './React_2/ReactMemo'
-import ReactCallback from './React_2/ReactCallback'
+import UseCallback from './React_2/UseCallback'
+import UseMemo from './React_2/UseMemo'
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
       {/* <FormManagement/> */}
       {/* <UseRefInput/> */}
       {/* <ReactMemo/> */}
-      <ReactCallback/>
+      {/* <UseCallback/> */}
+      <UseMemo/>
     </div>
   )
 }
